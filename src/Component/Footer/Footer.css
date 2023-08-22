@@ -1,0 +1,75 @@
+*{
+    padding: 0em;
+    margin: 0em;
+}
+.footadi{
+    display: flex;
+    height: fit-content;
+    background-color: black;
+    flex-direction: column;
+}
+.footer_block{
+    display: flex;
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    width: initial;
+    height: 100%;
+}
+.sections3{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+    justify-content: space-between;
+}
+.Aboutus_footer ,.OurService_footer ,.Contact_footer{
+    display: flex;
+    width: 40%;
+    padding-top: 1em;
+    flex-direction: column;
+}
+.underline{
+    display: flex;
+    border:  solid white;
+    border-width: 1px; 
+}
+
+.OurService_footer_order_cont1 ,.Contact_footer_order_cont1 ,.titleeachcol{
+    display: flex;
+    flex-direction: row;
+    font-size: 1.5em;
+    color: white;
+}
+.arrow_svg{
+    display: flex;
+    padding-right: 1em;
+}
+.contact_svg{
+    height: 1em;
+    width: 1em;
+    align-self: center;
+    margin-right: 1em;
+}
+.enderblock{
+    display: flex;
+    align-self: center;
+    height: fit-content;
+}
+@media screen and (max-width:40em) {
+    .footadi{
+        width: 100%;
+    }
+    .sections3{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .Aboutus_footer ,.OurService_footer ,.Contact_footer{
+        width: auto;
+        justify-items: center;
+    }
+    .OurService_footer_order_cont1 ,.Contact_footer_order_cont1 ,.titleeachcol{
+        font-size: 1em;
+     }
+}

@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&family=Roboto:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Noto+Serif:ital@1&family=Roboto:ital@1&display=swap');
+.contactBlock{
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    background-color: #F6DFEB;
+}
+.Titlediv{
+    display: flex;
+    height: fit-content;
+    background-color: #F6DFEB;
+    justify-content: center;
+    width: 30vw;
+}
+.TitlePP{
+    display: flex;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    font-family: 'Alfa Slab One', cursive;
+    font-family: 'Noto Serif', serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+
+}
+.contactBlockinside{
+    display: flex;
+    margin: 1em;
+    background-color: #F6DFEB;
+    justify-content: center;
+}
+.text-content{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto auto auto;
+    width: max-content;
+    grid-gap: 20px;
+}
+.Contentin{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 3px solid black;
+    width: 100%;
+    margin-top: 0.5em;
+}
+.texter{
+    font-family: 'Noto Serif', serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+}
+.buttoner-block{
+    display: flex;
+    width: 100%;
+    margin-top: 0.5em;
+    justify-content: center;
+    align-content: center;
+}
+.input100{
+    display: flex;
+    text-decoration: none;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    width: fit-content;
+} 
+.buttoner{
+    background-color: #CA8A8B;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    text-decoration-style: none;
+    display: inline-block;
+    cursor: pointer;
+    height: 3em;
+    width: 10em;
+    
+    justify-self: center;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    border: none;
+    border-radius: 3em;
+    outline: none;
+}
+
+*:focus {
+    outline: 0 !important;
+    background-color: coral;
+}
+
+@media screen and (max-width:40em){
+    .text-content{
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto auto auto auto;
+    }
+    .contactBlock{
+        flex-direction: column;
+        width: 100%;
+        margin-left: 0%;
+        height: fit-content;
+    }
+    .Titlediv{
+        width: 100%;
+    }
+    .TitlePP{
+        padding-top: 5vh;
+        padding-bottom: 0vh;
+    }
+    .contactBlockinside{
+        justify-content: center;
+    }
+    .Contentin{
+        width: 50%;
+    }
+}

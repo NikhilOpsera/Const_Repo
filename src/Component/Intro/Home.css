@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+
+.homebody{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+.fullimagees{
+    height: 100vh;
+    width: 100vw;
+}
+
+.AboutUsDetail{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    height: 100%;
+    background-color: #E2BCB7;
+}
+.Text-Contetn{
+    display: flex;
+    display: inline-block;
+    flex-direction: column;
+    align-items: center;
+    padding: 2vh;
+    width: 45%;
+    text-align: center;
+    background-color: #E2BCB7;
+}
+
+.Text-Contetn P{
+    padding: 1em;
+    text-align: center;
+}
+.Content{
+    font-size: 1em;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+.Title-Home{
+    display: inline-block;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 2em;
+}
+.Image-Sector{
+    display: flex;
+    width: 60%;
+}
+.Imageintitle{
+    object-fit: cover;
+}
+
+@media screen and (max-width:50em){
+    .homebody{
+        width: 100%;
+    }
+    .AboutUsDetail{
+        flex-direction: column;
+    }   
+    .Text-Contetn{
+        width: 100%;
+        height: 50%;
+    }
+    .Image-Sector{
+        width: 100%;
+    }
+    .Title-Home{
+        font-size: 1.5em;
+    }
+    .Content{
+        font-size: 0.8em;
+    }
+}

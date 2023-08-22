@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Caption&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap');
+*{
+    padding: 0em;
+    margin: 0em;
+}
+.main1{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.homebody{
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    width: 100%;
+}
+.AboutUsDetail_VastuTrends{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5vh;
+    padding-top: 5vh;
+    height: 100%;
+    background-color: #F2E1C1;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+.Text-Contetn_VastuTrends{
+    display: flex;
+    display: inline-block;
+    flex-direction: row;
+    width: 50%;
+    align-items: center;
+    text-align: center;
+    background-color: #F2E1C1;
+}
+.Text-Contetn_VastuTrends P{
+    padding: 0.5em;
+    text-align: center;
+}
+.Image-Sector_VastuTrends{
+    display: flex;
+    width: 50vw;
+    background-color: coral;
+}
+.Imageintitle_VastuTrends{
+    object-fit: fill;
+}
+.ProjectDetails{
+    display: flex;
+    flex-direction: column;
+    padding: 1vh;
+    padding-top: 5vh;
+    justify-content: center;
+    align-items: center;
+}
+.Content_VastuTrends{
+    font-size: 1.2em;
+    font-family: 'Noto Serif', serif;
+}
+.Title-Home_VastuTrends{
+    font-family: 'Merriweather', serif;
+    font-size: 2em;
+}
+.Project-Text{
+    display: flex;
+    flex-direction: column;
+    padding-left: 7em;
+    padding-right: 7em;
+}
+.ProjectTitle{
+    text-align: center;
+    font-family: 'PT Sans Caption', sans-serif;
+    font-size: 3em;
+}
+.ProjectTextCont{
+    text-align: center;
+    font-family: 'Pathway Gothic One', sans-serif;
+}
+.Project-Image{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 1vh;
+    background-color: #FFF1F1;
+    z-index: -2;
+}
+.ConstructionSites{
+    display: flex;
+    background-color: #FFF1F1;
+    margin-left: 6vw;
+    margin-right: 6vw;
+    z-index: -2;
+    flex-direction: column;
+}
+.ConstructionSites-text {
+    width: auto;
+    background-color: #FFF1F1;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 2em;
+}
+.Project-Image-block{
+    display: flex;
+    flex-direction: column;
+}
+.Protextcon{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Merriweather', serif;
+    font-size: 1.5m;
+    align-items: center;
+}
+.typees{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.toogl_btn{
+    display: flex;
+    height: 8em;
+}
+
+.contactblockinbody{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: fit-content;
+}
+.carousel{
+    margin: auto;
+    width: 90%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    z-index: -2;
+}
+@media screen and (max-width:50em){
+    .main1{
+        width: 100vw;
+    }
+    .AboutUsDetail_VastuTrends{
+        flex-direction: column;
+    }  
+    .Text-Contetn_VastuTrends{
+        width: 90%;
+        height: 50%;
+    } 
+    .Image-Sector_VastuTrends{
+        width: 90%;
+    }
+    .InteriorDesigne-grid{
+        grid-template-columns: 90%;
+    }
+}

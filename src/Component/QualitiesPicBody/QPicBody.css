@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,600&display=swap');
+.QPIC{
+    display: flex;
+    height: fit-content;
+}
+.sliderrs{
+    display: flex;
+    height: 80vh;
+    width: 100%;
+}
+.Imageesschichi{
+    position: relative;
+    height: 50vh;
+    width: 100%;
+    text-align: center;
+}
+.Imageesschichi img{
+    position: relative;
+    height: 80vh;
+    width: 100%;
+    z-index: -2;
+}
+.textcont{
+    position: absolute;
+    color: black;
+    z-index: -1;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.5em;
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.5); 
+    width: 100%;
+    color: #f1f1f1;
+}
+/* .Plumbingtt{
+    display: none;
+} */
+

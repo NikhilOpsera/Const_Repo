@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,600&display=swap');
+.QPIC1{
+    display: flex;
+    height: fit-content;
+}
+.sliderrs1{
+    display: flex;
+    height: 80vh;
+    width: 100%;
+}
+.Imageesschichi1{
+    z-index: -3;
+    position: relative;
+    height: 50vh;
+    width: 100%;
+    text-align: center;
+}
+.Imageesschichi1 img{
+    position: relative;
+    height: 80vh;
+    width: 100%;
+    z-index: -2;
+}
+@media screen and (max-width:50em){
+    .QPIC1{
+        height: 25em;
+    }
+
+    .Imageesschichi1 img{
+        height: 25em;
+        z-index: -2;
+    }
+}
